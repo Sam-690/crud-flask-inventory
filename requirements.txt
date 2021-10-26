@@ -1,3 +1,4 @@
 Flask
 pymongo==3.5.1
 flask-cors
+gunicorn
