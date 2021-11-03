@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo, ObjectId
 from flask_cors import CORS
 
 app = Flask(__name__)
-app.config["MONGO_URI"] = "mongodb://uksgno0sspdyw8xuwbia:KHwH2efvAZaPxOeHMEOj@bx1qx5p5vmjlyny-mongodb.services.clever-cloud.com:27017/bx1qx5p5vmjlyny"
+app.config["MONGO_URI"] = "mongodb+srv://SamLR18:Pass18d@cluster0.1vzbl.mongodb.net/inventorydoulos?retryWrites=true&w=majority"
 mongo = PyMongo(app)
 
 CORS(app)
